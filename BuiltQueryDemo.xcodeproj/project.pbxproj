@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA5489FB18DC690A00C5BB48 /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5489F918DC690A00C5BB48 /* BuiltIO.framework */; };
+		BA5489FC18DC690A00C5BB48 /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA5489FA18DC690A00C5BB48 /* BuiltIO.bundle */; };
 		BA63702F18CF3F6E0060FCDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63702E18CF3F6E0060FCDC /* Foundation.framework */; };
 		BA63703118CF3F6E0060FCDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63703018CF3F6E0060FCDC /* CoreGraphics.framework */; };
 		BA63703318CF3F6E0060FCDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63703218CF3F6E0060FCDC /* UIKit.framework */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA5489F918DC690A00C5BB48 /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
+		BA5489FA18DC690A00C5BB48 /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
 		BA63702B18CF3F6E0060FCDC /* BuiltQueryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuiltQueryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA63702E18CF3F6E0060FCDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA63703018CF3F6E0060FCDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +91,7 @@
 				BA63707618CF56130060FCDC /* QuartzCore.framework in Frameworks */,
 				BA63707718CF56130060FCDC /* Security.framework in Frameworks */,
 				BA63707818CF56130060FCDC /* Social.framework in Frameworks */,
+				BA5489FB18DC690A00C5BB48 /* BuiltIO.framework in Frameworks */,
 				BA63707918CF56130060FCDC /* Twitter.framework in Frameworks */,
 				BA63703118CF3F6E0060FCDC /* CoreGraphics.framework in Frameworks */,
 				BA63703318CF3F6E0060FCDC /* UIKit.framework in Frameworks */,
@@ -129,6 +134,8 @@
 		BA63702D18CF3F6E0060FCDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA5489F918DC690A00C5BB48 /* BuiltIO.framework */,
+				BA5489FA18DC690A00C5BB48 /* BuiltIO.bundle */,
 				BA63707A18CF561D0060FCDC /* SystemConfiguration.framework */,
 				BA63706A18CF56130060FCDC /* Accounts.framework */,
 				BA63706B18CF56130060FCDC /* CFNetwork.framework */,
@@ -273,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5489FC18DC690A00C5BB48 /* BuiltIO.bundle in Resources */,
 				BA63703918CF3F6E0060FCDC /* InfoPlist.strings in Resources */,
 				BA63704118CF3F6E0060FCDC /* Images.xcassets in Resources */,
 			);
@@ -418,6 +426,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					$SRCROOT,
+					/Users/akshay/Projects/BuiltQueryDemo,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltQueryDemo/BuiltQueryDemo-Prefix.pch";
@@ -437,6 +446,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					$SRCROOT,
+					/Users/akshay/Projects/BuiltQueryDemo,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltQueryDemo/BuiltQueryDemo-Prefix.pch";

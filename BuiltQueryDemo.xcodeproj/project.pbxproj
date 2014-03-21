@@ -29,8 +29,6 @@
 		BA63707918CF56130060FCDC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63707118CF56130060FCDC /* Twitter.framework */; };
 		BA63707B18CF561D0060FCDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63707A18CF561D0060FCDC /* SystemConfiguration.framework */; };
 		BA7E7EC618D2D3AB00E96FBA /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E7EC518D2D3AB00E96FBA /* QueryViewController.m */; };
-		BA7E7ED118D2DCCA00E96FBA /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7E7ECF18D2DCCA00E96FBA /* BuiltIO.framework */; };
-		BA7E7ED218D2DCCA00E96FBA /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA7E7ED018D2DCCA00E96FBA /* BuiltIO.bundle */; };
 		BAEBAFB918D81870009E2BBF /* QueryConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEBAFB818D81870009E2BBF /* QueryConditionsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +70,6 @@
 		BA7E7EC418D2D3AB00E96FBA /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = SOURCE_ROOT; };
 		BA7E7EC518D2D3AB00E96FBA /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = SOURCE_ROOT; };
 		BA7E7ECE18D2DAEE00E96FBA /* BuiltQueryDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuiltQueryDemo-Prefix.pch"; sourceTree = "<group>"; };
-		BA7E7ECF18D2DCCA00E96FBA /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
-		BA7E7ED018D2DCCA00E96FBA /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
 		BAEBAFB718D81870009E2BBF /* QueryConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryConditionsViewController.h; sourceTree = SOURCE_ROOT; };
 		BAEBAFB818D81870009E2BBF /* QueryConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryConditionsViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -91,7 +87,6 @@
 				BA63707618CF56130060FCDC /* QuartzCore.framework in Frameworks */,
 				BA63707718CF56130060FCDC /* Security.framework in Frameworks */,
 				BA63707818CF56130060FCDC /* Social.framework in Frameworks */,
-				BA7E7ED118D2DCCA00E96FBA /* BuiltIO.framework in Frameworks */,
 				BA63707918CF56130060FCDC /* Twitter.framework in Frameworks */,
 				BA63703118CF3F6E0060FCDC /* CoreGraphics.framework in Frameworks */,
 				BA63703318CF3F6E0060FCDC /* UIKit.framework in Frameworks */,
@@ -134,8 +129,6 @@
 		BA63702D18CF3F6E0060FCDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA7E7ECF18D2DCCA00E96FBA /* BuiltIO.framework */,
-				BA7E7ED018D2DCCA00E96FBA /* BuiltIO.bundle */,
 				BA63707A18CF561D0060FCDC /* SystemConfiguration.framework */,
 				BA63706A18CF56130060FCDC /* Accounts.framework */,
 				BA63706B18CF56130060FCDC /* CFNetwork.framework */,
@@ -280,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA7E7ED218D2DCCA00E96FBA /* BuiltIO.bundle in Resources */,
 				BA63703918CF3F6E0060FCDC /* InfoPlist.strings in Resources */,
 				BA63704118CF3F6E0060FCDC /* Images.xcassets in Resources */,
 			);
@@ -425,8 +417,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/akshay/Downloads/builtio-ios-sdk-stable-latest\\ (9)/BuiltIOStarterKit",
-					/Users/akshay/Projects/BuiltQueryDemo,
+					$SRCROOT,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltQueryDemo/BuiltQueryDemo-Prefix.pch";
@@ -445,8 +436,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/akshay/Downloads/builtio-ios-sdk-stable-latest\\ (9)/BuiltIOStarterKit",
-					/Users/akshay/Projects/BuiltQueryDemo,
+					$SRCROOT,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltQueryDemo/BuiltQueryDemo-Prefix.pch";

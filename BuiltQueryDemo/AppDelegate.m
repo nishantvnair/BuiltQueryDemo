@@ -7,16 +7,33 @@
 //
 
 #import "AppDelegate.h"
+#import "QueryViewController.h"
+#import "QueryConditionsViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+
+    [Built initializeWithApiKey:@"bltab290b02890b2dea" andUid:@"built_query_demo"];
+    
+
+//    QueryViewController *result = [[QueryViewController alloc]initWithStyle:UITableViewStylePlain withClassUID:@"task"];
+    
+    QueryConditionsViewController *condtions = [[QueryConditionsViewController alloc]init];
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        [condtions setEdgesForExtendedLayout:UIRectEdgeBottom];
+    }
+
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:condtions];
+    
+    [self.window setRootViewController:nvc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    return YES;
+    return YES;    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

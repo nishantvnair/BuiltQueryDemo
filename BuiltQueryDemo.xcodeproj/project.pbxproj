@@ -19,6 +19,19 @@
 		BA63704A18CF3F6E0060FCDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63703218CF3F6E0060FCDC /* UIKit.framework */; };
 		BA63705218CF3F6E0060FCDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA63705018CF3F6E0060FCDC /* InfoPlist.strings */; };
 		BA63705418CF3F6E0060FCDC /* BuiltQueryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA63705318CF3F6E0060FCDC /* BuiltQueryDemoTests.m */; };
+		BA63707218CF56130060FCDC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63706A18CF56130060FCDC /* Accounts.framework */; };
+		BA63707318CF56130060FCDC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63706B18CF56130060FCDC /* CFNetwork.framework */; };
+		BA63707418CF56130060FCDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63706C18CF56130060FCDC /* CoreLocation.framework */; };
+		BA63707518CF56130060FCDC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63706D18CF56130060FCDC /* CoreTelephony.framework */; };
+		BA63707618CF56130060FCDC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63706E18CF56130060FCDC /* QuartzCore.framework */; };
+		BA63707718CF56130060FCDC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63706F18CF56130060FCDC /* Security.framework */; };
+		BA63707818CF56130060FCDC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63707018CF56130060FCDC /* Social.framework */; };
+		BA63707918CF56130060FCDC /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63707118CF56130060FCDC /* Twitter.framework */; };
+		BA63707B18CF561D0060FCDC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA63707A18CF561D0060FCDC /* SystemConfiguration.framework */; };
+		BA7E7EC618D2D3AB00E96FBA /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7E7EC518D2D3AB00E96FBA /* QueryViewController.m */; };
+		BA7E7ED118D2DCCA00E96FBA /* BuiltIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7E7ECF18D2DCCA00E96FBA /* BuiltIO.framework */; };
+		BA7E7ED218D2DCCA00E96FBA /* BuiltIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA7E7ED018D2DCCA00E96FBA /* BuiltIO.bundle */; };
+		BAEBAFB918D81870009E2BBF /* QueryConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEBAFB818D81870009E2BBF /* QueryConditionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,6 @@
 		BA63703618CF3F6E0060FCDC /* BuiltQueryDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltQueryDemo-Info.plist"; sourceTree = "<group>"; };
 		BA63703818CF3F6E0060FCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA63703A18CF3F6E0060FCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BA63703C18CF3F6E0060FCDC /* BuiltQueryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuiltQueryDemo-Prefix.pch"; sourceTree = "<group>"; };
 		BA63703D18CF3F6E0060FCDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA63703E18CF3F6E0060FCDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA63704018CF3F6E0060FCDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -48,6 +60,22 @@
 		BA63704F18CF3F6E0060FCDC /* BuiltQueryDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltQueryDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BA63705118CF3F6E0060FCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA63705318CF3F6E0060FCDC /* BuiltQueryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuiltQueryDemoTests.m; sourceTree = "<group>"; };
+		BA63706A18CF56130060FCDC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BA63706B18CF56130060FCDC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BA63706C18CF56130060FCDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA63706D18CF56130060FCDC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BA63706E18CF56130060FCDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BA63706F18CF56130060FCDC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BA63707018CF56130060FCDC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BA63707118CF56130060FCDC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		BA63707A18CF561D0060FCDC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BA7E7EC418D2D3AB00E96FBA /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = SOURCE_ROOT; };
+		BA7E7EC518D2D3AB00E96FBA /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = SOURCE_ROOT; };
+		BA7E7ECE18D2DAEE00E96FBA /* BuiltQueryDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BuiltQueryDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BA7E7ECF18D2DCCA00E96FBA /* BuiltIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuiltIO.framework; sourceTree = "<group>"; };
+		BA7E7ED018D2DCCA00E96FBA /* BuiltIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BuiltIO.bundle; sourceTree = "<group>"; };
+		BAEBAFB718D81870009E2BBF /* QueryConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryConditionsViewController.h; sourceTree = SOURCE_ROOT; };
+		BAEBAFB818D81870009E2BBF /* QueryConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryConditionsViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA63707B18CF561D0060FCDC /* SystemConfiguration.framework in Frameworks */,
+				BA63707218CF56130060FCDC /* Accounts.framework in Frameworks */,
+				BA63707318CF56130060FCDC /* CFNetwork.framework in Frameworks */,
+				BA63707418CF56130060FCDC /* CoreLocation.framework in Frameworks */,
+				BA63707518CF56130060FCDC /* CoreTelephony.framework in Frameworks */,
+				BA63707618CF56130060FCDC /* QuartzCore.framework in Frameworks */,
+				BA63707718CF56130060FCDC /* Security.framework in Frameworks */,
+				BA63707818CF56130060FCDC /* Social.framework in Frameworks */,
+				BA7E7ED118D2DCCA00E96FBA /* BuiltIO.framework in Frameworks */,
+				BA63707918CF56130060FCDC /* Twitter.framework in Frameworks */,
 				BA63703118CF3F6E0060FCDC /* CoreGraphics.framework in Frameworks */,
 				BA63703318CF3F6E0060FCDC /* UIKit.framework in Frameworks */,
 				BA63702F18CF3F6E0060FCDC /* Foundation.framework in Frameworks */,
@@ -96,6 +134,17 @@
 		BA63702D18CF3F6E0060FCDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA7E7ECF18D2DCCA00E96FBA /* BuiltIO.framework */,
+				BA7E7ED018D2DCCA00E96FBA /* BuiltIO.bundle */,
+				BA63707A18CF561D0060FCDC /* SystemConfiguration.framework */,
+				BA63706A18CF56130060FCDC /* Accounts.framework */,
+				BA63706B18CF56130060FCDC /* CFNetwork.framework */,
+				BA63706C18CF56130060FCDC /* CoreLocation.framework */,
+				BA63706D18CF56130060FCDC /* CoreTelephony.framework */,
+				BA63706E18CF56130060FCDC /* QuartzCore.framework */,
+				BA63706F18CF56130060FCDC /* Security.framework */,
+				BA63707018CF56130060FCDC /* Social.framework */,
+				BA63707118CF56130060FCDC /* Twitter.framework */,
 				BA63702E18CF3F6E0060FCDC /* Foundation.framework */,
 				BA63703018CF3F6E0060FCDC /* CoreGraphics.framework */,
 				BA63703218CF3F6E0060FCDC /* UIKit.framework */,
@@ -107,6 +156,7 @@
 		BA63703418CF3F6E0060FCDC /* BuiltQueryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA63705D18CF41C20060FCDC /* Controllers */,
 				BA63703D18CF3F6E0060FCDC /* AppDelegate.h */,
 				BA63703E18CF3F6E0060FCDC /* AppDelegate.m */,
 				BA63704018CF3F6E0060FCDC /* Images.xcassets */,
@@ -118,10 +168,10 @@
 		BA63703518CF3F6E0060FCDC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA7E7ECE18D2DAEE00E96FBA /* BuiltQueryDemo-Prefix.pch */,
 				BA63703618CF3F6E0060FCDC /* BuiltQueryDemo-Info.plist */,
 				BA63703718CF3F6E0060FCDC /* InfoPlist.strings */,
 				BA63703A18CF3F6E0060FCDC /* main.m */,
-				BA63703C18CF3F6E0060FCDC /* BuiltQueryDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +192,17 @@
 				BA63705018CF3F6E0060FCDC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA63705D18CF41C20060FCDC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA7E7EC418D2D3AB00E96FBA /* QueryViewController.h */,
+				BA7E7EC518D2D3AB00E96FBA /* QueryViewController.m */,
+				BAEBAFB718D81870009E2BBF /* QueryConditionsViewController.h */,
+				BAEBAFB818D81870009E2BBF /* QueryConditionsViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7E7ED218D2DCCA00E96FBA /* BuiltIO.bundle in Resources */,
 				BA63703918CF3F6E0060FCDC /* InfoPlist.strings in Resources */,
 				BA63704118CF3F6E0060FCDC /* Images.xcassets in Resources */,
 			);
@@ -240,7 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA63703F18CF3F6E0060FCDC /* AppDelegate.m in Sources */,
+				BAEBAFB918D81870009E2BBF /* QueryConditionsViewController.m in Sources */,
 				BA63703B18CF3F6E0060FCDC /* main.m in Sources */,
+				BA7E7EC618D2D3AB00E96FBA /* QueryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,9 +423,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/akshay/Downloads/builtio-ios-sdk-stable-latest\\ (9)/BuiltIOStarterKit",
+					/Users/akshay/Projects/BuiltQueryDemo,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltQueryDemo/BuiltQueryDemo-Prefix.pch";
 				INFOPLIST_FILE = "BuiltQueryDemo/BuiltQueryDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,9 +443,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/akshay/Downloads/builtio-ios-sdk-stable-latest\\ (9)/BuiltIOStarterKit",
+					/Users/akshay/Projects/BuiltQueryDemo,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BuiltQueryDemo/BuiltQueryDemo-Prefix.pch";
 				INFOPLIST_FILE = "BuiltQueryDemo/BuiltQueryDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -441,6 +519,7 @@
 				BA63705918CF3F6E0060FCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA63705A18CF3F6E0060FCDC /* Build configuration list for PBXNativeTarget "BuiltQueryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +528,7 @@
 				BA63705C18CF3F6E0060FCDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
